@@ -1,4 +1,6 @@
-for future me:
+React app to instantly calculate cash flow for a rental property, hosted on firebase.
+
+## Dev notes:
 
 1) npm start
 
