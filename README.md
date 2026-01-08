@@ -1,8 +1,30 @@
-React app to instantly calculate cash flow for a rental property, hosted on firebase.
+# 🏠 HouseMath
+**Instantly calculate cash flow for rental properties.**
 
-https://housemath.web.app/
+HouseMath is a streamlined **React** application designed to help real estate investors and homeowners quickly determine the profitability of a property. By inputting key financial data, users get an immediate breakdown of their potential monthly and annual cash flow.
 
-## Dev notes:
+[**View Live Demo**](https://housemath.web.app/)
+
+---
+
+### ✨ Features
+* **Instant Calculation:** Real-time cash flow analysis as you input your data.
+* **Investment Insights:** Simplifies complex real estate math into easy-to-understand metrics.
+* **Clean & Minimalist:** A focused UI built for speed and utility.
+* **Cloud Hosted:** Fully responsive and accessible from any device via Firebase.
+
+---
+
+### 🛠 Tech Stack
+* **Frontend:** React.js
+* **Styling:** CSS3 & HTML5
+* **Deployment:** Firebase Hosting
+
+---
+
+## 🚀 Development & Deployment (dev notes)
+
+### Steps:
 
 1) npm start
 
@@ -11,15 +33,15 @@ https://housemath.web.app/
 3) firebase deploy --only hosting:housemath
 
 
-# Getting Started with Create React App
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-## `npm start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -32,7 +54,7 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## `npm run build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -42,7 +64,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## deploy `firebase deploy --only hosting:housemath`
+### deploy `firebase deploy --only hosting:housemath`
 
 https://firebase.google.com/docs/hosting/test-preview-deploy
 
